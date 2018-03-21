@@ -42,8 +42,10 @@ public class Main {
         }
         catch (Exception e){
             System.out.println(e.getMessage());
-            e.printStackTrace();
             System.out.println(e.getCause());
+            System.out.println(e.getCause().getCause());
+            System.out.println(e.getCause().getCause().getCause());
+            e.printStackTrace();
         }
     }
 }

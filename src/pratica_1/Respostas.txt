@@ -1,0 +1,7 @@
+2.
+
+3. Sim, aparece todo o call stack do programa ao imprimir o trace stack. Enquanto o getCause() retorna a exceção que foi
+encadeada nessa.
+
+4. Sim, é possível criar um try e finally sem o catch. Serve para garantir que algo sempre ocorra após um
+trecho de execução, idependentemente se tiver ocorrido um erro ou não. Por exemplo para liberar um recurso ou fechar um arquivo.
