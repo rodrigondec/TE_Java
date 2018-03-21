@@ -1,0 +1,15 @@
+﻿PRATICA - EXCECOES JAVA
+
+
+1. Crie um exemplo de codigo para mostrar como um excecao é suprimida.
+
+
+2. Como o try-with resources resolve este problema? Crie um exemplo desse codigo onde o metodo close lanca uma
+excecao e veja ela sobrescreve a excecao lançada pelo close.
+
+
+3. Para entender melhor como funciona o encadeamento construa um  exemplo de codigo onde excecoes sao encadeadas e
+imprima o stack trace. Tanto a excecao origerm quanto que a encapsulam aparecem na stack? O que contem o metodo getCause?
+
+
+4. É possivel implementar um bloco try{}finally{} sem o catch? Se sim para que serve? Se nao por que nao é possível?
