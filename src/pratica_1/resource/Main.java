@@ -5,8 +5,5 @@ public class Main {
         try (Resource resource = new Resource()) {
             resource.doSomething();
         }
-        catch (Exception e){
-            System.out.print(e.getMessage());
-        }
     }
 }

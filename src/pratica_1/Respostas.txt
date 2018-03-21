@@ -1,4 +1,4 @@
-2.
+2.Sim, a exceção é lançada para o main.
 
 3. Sim, aparece todo o call stack do programa ao imprimir o trace stack. Enquanto o getCause() retorna a exceção que foi
 encadeada nessa.
